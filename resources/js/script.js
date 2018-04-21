@@ -81,7 +81,7 @@ $(function() {
     });
     
     
-    /* maps 
+    /* maps */
       var map =  new GMaps({
       div: '.map',
       lat: 38.7437396, 
@@ -97,18 +97,6 @@ $(function() {
       infoWindow: {
       content: '<p>Our Lisbon HQ</p>'
     }
-});*/
-    function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    
+}); 
     
 });
